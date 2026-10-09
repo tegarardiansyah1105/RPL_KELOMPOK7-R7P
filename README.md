@@ -1,4 +1,4 @@
-# RPL KELOMPOK 7
+# MOTOCARE KELOMPOK 7
 
 MotoCare adalah aplikasi / sistem untuk perawatan dan monitoring kendaraan bermotor. Proyek ini dikembangkan sebagai tugas mata kuliah Rekayasa Perangkat Lunak (RPL).
 
