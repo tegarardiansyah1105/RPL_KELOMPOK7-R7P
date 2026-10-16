@@ -7,3 +7,5 @@ Anggota Kelompok 7
 - Faishal Zaki Ramadhan  (202343501294)
 - Naufal Abiyyi          (202343501331)
 
+
+![Use Case Diagram](use case_RPL_Kelompok7.drawio.png)
