@@ -1,0 +1,132 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="k6BHghKRAlxiELQZsnun">
+    <mxGraphModel dx="2174" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=270;height=70;fontColor=#000000;" value="&lt;span style=&quot;font-family: anthropic-sans, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, sans-serif; text-align: start; white-space: nowrap;&quot;&gt;dep MotoCare+ Deployment&lt;/span&gt;" vertex="1">
+          <mxGeometry height="700" width="990" x="60" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#000000;" value="&lt;span style=&quot;font-family: anthropic-sans, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, sans-serif; font-size: 14px; text-align: start; white-space: nowrap;&quot;&gt;Deployment Diagram - MotoCare+&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="525" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-5" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;android application&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;motocare.apk&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="500" width="290" x="120" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-6" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="«compiled classes»&lt;br&gt;&lt;b&gt;classes.dex&lt;/b&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="175" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-7" parent="LNWVEs2B0pIgkLoMxD0u-6" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-8" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="«compiled resources»&lt;br&gt;&lt;b&gt;resources.arsc&lt;/b&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="175" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-9" parent="LNWVEs2B0pIgkLoMxD0u-8" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-12" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="«uncompiled resources»&lt;br&gt;&lt;b&gt;res&lt;/b&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="175" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-13" parent="LNWVEs2B0pIgkLoMxD0u-12" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-19" edge="1" parent="1" source="LNWVEs2B0pIgkLoMxD0u-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;startArrow=none;startFill=0;endArrow=none;endFill=0;" target="LNWVEs2B0pIgkLoMxD0u-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-14" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="«deployment spec»&lt;br&gt;&lt;b&gt;AndoirdManifest.xml&lt;/b&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="175" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-15" parent="LNWVEs2B0pIgkLoMxD0u-14" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-17" edge="1" parent="1" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.164;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="LNWVEs2B0pIgkLoMxD0u-20" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="410" y="610" as="sourcePoint" />
+            <mxPoint x="582.52" y="608.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;deploy&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-20" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;executionEnvironment&amp;gt;&amp;gt;&lt;div&gt;Android (API 26+)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="299" width="420" x="580" y="561" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-21" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="«database»&lt;br&gt;&lt;b&gt;motocare.db&lt;/b&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="590" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-22" parent="LNWVEs2B0pIgkLoMxD0u-21" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-23" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="«component»&lt;br&gt;&lt;b&gt;DataStore&lt;/b&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="780" y="622" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-24" parent="LNWVEs2B0pIgkLoMxD0u-23" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-25" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="«component»&lt;br&gt;&lt;b&gt;Notification API&lt;/b&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="590" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-26" parent="LNWVEs2B0pIgkLoMxD0u-25" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-27" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="«component»&lt;br&gt;&lt;b&gt;Keystore&lt;/b&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="780" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-28" parent="LNWVEs2B0pIgkLoMxD0u-27" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-29" parent="1" style="sketch=0;verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;fillColor=#000000;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.mobile;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="70" width="35.36" x="650" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-30" edge="1" parent="1" source="LNWVEs2B0pIgkLoMxD0u-20" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.502;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.006;exitY=0.792;exitDx=0;exitDy=0;exitPerimeter=0;" target="LNWVEs2B0pIgkLoMxD0u-29" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="550" y="650" as="sourcePoint" />
+            <mxPoint x="710" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;mobile device&amp;gt;&amp;gt;&lt;br&gt;Smartphonne Android" vertex="1">
+          <mxGeometry height="30" width="135" x="600.18" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-35" edge="1" parent="1" source="LNWVEs2B0pIgkLoMxD0u-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="LNWVEs2B0pIgkLoMxD0u-29">
+          <mxGeometry relative="1" x="0.131" as="geometry">
+            <Array as="points">
+              <mxPoint x="727.7" y="405" />
+              <mxPoint x="727.7" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-33" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;hardware&amp;gt;&amp;gt;&lt;div&gt;Kamera&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="100" x="770" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-36" edge="1" parent="1" source="LNWVEs2B0pIgkLoMxD0u-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="LNWVEs2B0pIgkLoMxD0u-29">
+          <mxGeometry relative="1" x="0.12" as="geometry">
+            <Array as="points">
+              <mxPoint x="727.7" y="495" />
+              <mxPoint x="727.7" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNWVEs2B0pIgkLoMxD0u-34" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;storage&amp;gt;&amp;gt;&lt;br&gt;Memori Internal" vertex="1">
+          <mxGeometry height="70" width="100" x="770" y="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
